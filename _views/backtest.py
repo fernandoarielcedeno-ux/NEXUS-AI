@@ -1,10 +1,10 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 from core.cache import cached_backtest
 
 TEAL  = "#00F5D4"

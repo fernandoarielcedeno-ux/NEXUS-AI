@@ -1,10 +1,10 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import streamlit as st
 import pandas as pd
 import json
 import random
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from core.database import get_config, set_config, log_trade, log_signal, get_trades, update_portfolio, get_portfolio
 from core.cache import get_analyzed_pair, get_scanner_data

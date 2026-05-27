@@ -1,5 +1,5 @@
 import streamlit as st
-from core.engine import (
+from .engine import (
     generate_market_data as _gen,
     compute_indicators,
     score_signal,

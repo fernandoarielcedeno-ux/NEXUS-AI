@@ -1,9 +1,9 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from core.database import get_portfolio, get_config, get_trades, get_stats
 from core.cache import get_analyzed_pair

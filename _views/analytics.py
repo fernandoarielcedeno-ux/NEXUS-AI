@@ -1,10 +1,10 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from core.database import get_trades, get_stats, get_config
 from core.engine import generate_market_data, compute_indicators
