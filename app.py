@@ -212,7 +212,7 @@ with st.sidebar:
     st.markdown('<div class="nexus-logo">NEXUS AI</div>', unsafe_allow_html=True)
     st.markdown(
         "<p style='font-size:0.65rem;color:#00B4D8;letter-spacing:0.2em;"
-        "margin-top:0.1rem;margin-bottom:0;font-family:Space Mono,monospace;'>TRADING SYSTEM v3.0</p>",
+        "margin-top:0.1rem;margin-bottom:0;font-family:Space Mono,monospace;'>TRADING SYSTEM </p>",
         unsafe_allow_html=True,
     )
     st.markdown("---")
